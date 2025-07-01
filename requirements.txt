@@ -1,0 +1,11 @@
+pyaudio
+librosa
+matplotlib
+numpy
+soundfile
+dtw-python
+scipy
+simpleaudio
+streamlit
+streamlit-audio-recorder
+streamlit-webrtc 

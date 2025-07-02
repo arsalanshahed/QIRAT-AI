@@ -1,0 +1,10 @@
+Arabic model trained from MGB-2 dataset
+
+Get the model here https://kaldi-asr.org/models/m9
+
+SIZE 617M
+DATE 2020-02-26
+UPLOADER Dongji Gao
+RECIP Eegs/mgb2_arabic/s5
+MODEL TYPE Chain (TDNN and LSTM)
+ERROR RATE 16.40% WER (on dev set)

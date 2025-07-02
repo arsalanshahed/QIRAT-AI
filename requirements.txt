@@ -8,4 +8,15 @@ scipy
 simpleaudio
 streamlit
 streamlit-audio-recorder
-streamlit-webrtc 
+streamlit-webrtc
+pandas
+requests
+yt-dlp
+openai-whisper
+torch
+torchaudio
+transformers
+arabic-reshaper
+pyarabic
+python-bidi
+gTTS 

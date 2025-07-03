@@ -1,0 +1,1270 @@
+{
+  "test_results": {
+    "phoneme_detection": [
+      "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "الرَّحْمَٰنِ الرَّحِيمِ",
+      "مَالِكِ يَوْمِ الدِّينِ"
+    ],
+    "tajweed_validation": [
+      {
+        "test_case": {
+          "text": "مِنْ ثَمَرَةٍ",
+          "description": "Ikhfa rule - ن followed by ث",
+          "expected_rules": [
+            "Ikhfa"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ن",
+              "phoneme": "nun",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 3,
+              "type": "diacritic"
+            },
+            {
+              "char": "ث",
+              "phoneme": "tha",
+              "position": 5,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 6,
+              "type": "diacritic"
+            },
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 7,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 8,
+              "type": "diacritic"
+            },
+            {
+              "char": "ر",
+              "phoneme": "ra",
+              "position": 9,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 10,
+              "type": "diacritic"
+            },
+            {
+              "char": "ة",
+              "phoneme": "ta_marbuta",
+              "position": 11,
+              "type": "consonant"
+            },
+            {
+              "char": "ٍ",
+              "phoneme": "tanwin_kasra",
+              "position": 12,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      },
+      {
+        "test_case": {
+          "text": "مِن بَعْدِ",
+          "description": "Iqlab rule - ن followed by ب",
+          "expected_rules": [
+            "Iqlab"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ن",
+              "phoneme": "nun",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ب",
+              "phoneme": "ba",
+              "position": 4,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 5,
+              "type": "diacritic"
+            },
+            {
+              "char": "ع",
+              "phoneme": "ayn",
+              "position": 6,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 7,
+              "type": "diacritic"
+            },
+            {
+              "char": "د",
+              "phoneme": "dal",
+              "position": 8,
+              "type": "consonant"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 9,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      },
+      {
+        "test_case": {
+          "text": "مَن يَعْمَلْ",
+          "description": "Idgham with Ghunnah - ن followed by ي",
+          "expected_rules": [
+            "Idgham with Ghunnah"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ن",
+              "phoneme": "nun",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ي",
+              "phoneme": "ya",
+              "position": 4,
+              "type": "vowel"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 5,
+              "type": "diacritic"
+            },
+            {
+              "char": "ع",
+              "phoneme": "ayn",
+              "position": 6,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 7,
+              "type": "diacritic"
+            },
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 8,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 9,
+              "type": "diacritic"
+            },
+            {
+              "char": "ل",
+              "phoneme": "lam",
+              "position": 10,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 11,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      },
+      {
+        "test_case": {
+          "text": "مِن رَبِّهِمْ",
+          "description": "Idgham without Ghunnah - ن followed by ر",
+          "expected_rules": [
+            "Idgham without Ghunnah"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ن",
+              "phoneme": "nun",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ر",
+              "phoneme": "ra",
+              "position": 4,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 5,
+              "type": "diacritic"
+            },
+            {
+              "char": "ب",
+              "phoneme": "ba",
+              "position": 6,
+              "type": "consonant"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 7,
+              "type": "diacritic"
+            },
+            {
+              "char": "ّ",
+              "phoneme": "shadda",
+              "position": 8,
+              "type": "diacritic"
+            },
+            {
+              "char": "ه",
+              "phoneme": "ha",
+              "position": 9,
+              "type": "glottal"
+            },
+            {
+              "char": "ِ",
+              "phoneme": "kasra",
+              "position": 10,
+              "type": "diacritic"
+            },
+            {
+              "char": "م",
+              "phoneme": "mim",
+              "position": 11,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 12,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      },
+      {
+        "test_case": {
+          "text": "يَقْطَعُ",
+          "description": "Qalqalah rule - ق, ط, ب, ج, د",
+          "expected_rules": [
+            "Qalqalah"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "ي",
+              "phoneme": "ya",
+              "position": 0,
+              "type": "vowel"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ق",
+              "phoneme": "qaf",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ْ",
+              "phoneme": "sukun",
+              "position": 3,
+              "type": "diacritic"
+            },
+            {
+              "char": "ط",
+              "phoneme": "ta",
+              "position": 4,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 5,
+              "type": "diacritic"
+            },
+            {
+              "char": "ع",
+              "phoneme": "ayn",
+              "position": 6,
+              "type": "consonant"
+            },
+            {
+              "char": "ُ",
+              "phoneme": "damma",
+              "position": 7,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      },
+      {
+        "test_case": {
+          "text": "جَاءَ",
+          "description": "Madd Al-Muttasil - ا followed by ء",
+          "expected_rules": [
+            "Madd Al-Muttasil",
+            "Madd Al-Munfasil"
+          ]
+        },
+        "result": {
+          "score": 88,
+          "errors": [
+            {
+              "rule": "Madd Al-Muttasil",
+              "description": "Required elongation when hamza follows a vowel",
+              "example": "جَاءَ",
+              "word_index": 0,
+              "char_index": 2,
+              "severity": "high",
+              "audio_characteristics": {
+                "duration": "4-5 counts",
+                "elongation": true
+              },
+              "message": "Check Tajweed rule: Madd Al-Muttasil for 'اء' in word 'جَاءَ'"
+            },
+            {
+              "rule": "Madd Al-Munfasil",
+              "description": "Permissible elongation when hamza follows a vowel across words",
+              "example": "إِنَّا أَعْطَيْنَا",
+              "word_index": 0,
+              "char_index": 2,
+              "severity": "low",
+              "audio_characteristics": {
+                "duration": "2-5 counts",
+                "elongation": true
+              },
+              "message": "Check Tajweed rule: Madd Al-Munfasil for 'اء' in word 'جَاءَ'"
+            }
+          ],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "ج",
+              "phoneme": "jim",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ا",
+              "phoneme": "alif",
+              "position": 2,
+              "type": "vowel"
+            },
+            {
+              "char": "ء",
+              "phoneme": "hamza",
+              "position": 3,
+              "type": "glottal"
+            },
+            {
+              "char": "َ",
+              "phoneme": "fatha",
+              "position": 4,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": [
+          "Madd Al-Muttasil",
+          "Madd Al-Munfasil"
+        ]
+      },
+      {
+        "test_case": {
+          "text": "كُلُّ",
+          "description": "Waqf (Stopping) - word ending with sukun",
+          "expected_rules": [
+            "Waqf (Stopping)"
+          ]
+        },
+        "result": {
+          "score": 100,
+          "errors": [],
+          "warnings": [],
+          "phonemes": [
+            {
+              "char": "ك",
+              "phoneme": "kaf",
+              "position": 0,
+              "type": "consonant"
+            },
+            {
+              "char": "ُ",
+              "phoneme": "damma",
+              "position": 1,
+              "type": "diacritic"
+            },
+            {
+              "char": "ل",
+              "phoneme": "lam",
+              "position": 2,
+              "type": "consonant"
+            },
+            {
+              "char": "ُ",
+              "phoneme": "damma",
+              "position": 3,
+              "type": "diacritic"
+            },
+            {
+              "char": "ّ",
+              "phoneme": "shadda",
+              "position": 4,
+              "type": "diacritic"
+            }
+          ],
+          "total_rules_checked": 9
+        },
+        "found_rules": []
+      }
+    ],
+    "pronunciation_analysis": {
+      "tajweed_result": {
+        "score": 100,
+        "errors": [],
+        "warnings": [],
+        "phonemes": [
+          {
+            "char": "ب",
+            "phoneme": "ba",
+            "position": 0,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 1,
+            "type": "diacritic"
+          },
+          {
+            "char": "س",
+            "phoneme": "sin",
+            "position": 2,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 3,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 4,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 5,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 7,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 8,
+            "type": "consonant"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 9,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 10,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 11,
+            "type": "diacritic"
+          },
+          {
+            "char": "ه",
+            "phoneme": "ha",
+            "position": 12,
+            "type": "glottal"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 13,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 15,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 16,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 17,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 18,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 19,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 20,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 21,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 22,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 23,
+            "type": "diacritic"
+          },
+          {
+            "char": "ن",
+            "phoneme": "nun",
+            "position": 25,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 26,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 28,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 29,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 30,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 31,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 32,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 33,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 34,
+            "type": "diacritic"
+          },
+          {
+            "char": "ي",
+            "phoneme": "ya",
+            "position": 35,
+            "type": "vowel"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 36,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 37,
+            "type": "diacritic"
+          }
+        ],
+        "total_rules_checked": 9
+      },
+      "phonemes": [
+        {
+          "char": "ب",
+          "phoneme": "ba",
+          "position": 0,
+          "type": "consonant"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 1,
+          "type": "diacritic"
+        },
+        {
+          "char": "س",
+          "phoneme": "sin",
+          "position": 2,
+          "type": "consonant"
+        },
+        {
+          "char": "ْ",
+          "phoneme": "sukun",
+          "position": 3,
+          "type": "diacritic"
+        },
+        {
+          "char": "م",
+          "phoneme": "mim",
+          "position": 4,
+          "type": "consonant"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 5,
+          "type": "diacritic"
+        },
+        {
+          "char": "ا",
+          "phoneme": "alif",
+          "position": 7,
+          "type": "vowel"
+        },
+        {
+          "char": "ل",
+          "phoneme": "lam",
+          "position": 8,
+          "type": "consonant"
+        },
+        {
+          "char": "ل",
+          "phoneme": "lam",
+          "position": 9,
+          "type": "consonant"
+        },
+        {
+          "char": "َ",
+          "phoneme": "fatha",
+          "position": 10,
+          "type": "diacritic"
+        },
+        {
+          "char": "ّ",
+          "phoneme": "shadda",
+          "position": 11,
+          "type": "diacritic"
+        },
+        {
+          "char": "ه",
+          "phoneme": "ha",
+          "position": 12,
+          "type": "glottal"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 13,
+          "type": "diacritic"
+        },
+        {
+          "char": "ا",
+          "phoneme": "alif",
+          "position": 15,
+          "type": "vowel"
+        },
+        {
+          "char": "ل",
+          "phoneme": "lam",
+          "position": 16,
+          "type": "consonant"
+        },
+        {
+          "char": "ر",
+          "phoneme": "ra",
+          "position": 17,
+          "type": "consonant"
+        },
+        {
+          "char": "َ",
+          "phoneme": "fatha",
+          "position": 18,
+          "type": "diacritic"
+        },
+        {
+          "char": "ّ",
+          "phoneme": "shadda",
+          "position": 19,
+          "type": "diacritic"
+        },
+        {
+          "char": "ح",
+          "phoneme": "ha",
+          "position": 20,
+          "type": "consonant"
+        },
+        {
+          "char": "ْ",
+          "phoneme": "sukun",
+          "position": 21,
+          "type": "diacritic"
+        },
+        {
+          "char": "م",
+          "phoneme": "mim",
+          "position": 22,
+          "type": "consonant"
+        },
+        {
+          "char": "َ",
+          "phoneme": "fatha",
+          "position": 23,
+          "type": "diacritic"
+        },
+        {
+          "char": "ن",
+          "phoneme": "nun",
+          "position": 25,
+          "type": "consonant"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 26,
+          "type": "diacritic"
+        },
+        {
+          "char": "ا",
+          "phoneme": "alif",
+          "position": 28,
+          "type": "vowel"
+        },
+        {
+          "char": "ل",
+          "phoneme": "lam",
+          "position": 29,
+          "type": "consonant"
+        },
+        {
+          "char": "ر",
+          "phoneme": "ra",
+          "position": 30,
+          "type": "consonant"
+        },
+        {
+          "char": "َ",
+          "phoneme": "fatha",
+          "position": 31,
+          "type": "diacritic"
+        },
+        {
+          "char": "ّ",
+          "phoneme": "shadda",
+          "position": 32,
+          "type": "diacritic"
+        },
+        {
+          "char": "ح",
+          "phoneme": "ha",
+          "position": 33,
+          "type": "consonant"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 34,
+          "type": "diacritic"
+        },
+        {
+          "char": "ي",
+          "phoneme": "ya",
+          "position": 35,
+          "type": "vowel"
+        },
+        {
+          "char": "م",
+          "phoneme": "mim",
+          "position": 36,
+          "type": "consonant"
+        },
+        {
+          "char": "ِ",
+          "phoneme": "kasra",
+          "position": 37,
+          "type": "diacritic"
+        }
+      ],
+      "phoneme_distribution": {
+        "consonant": 14,
+        "diacritic": 15,
+        "vowel": 4,
+        "glottal": 1
+      }
+    },
+    "speech_recognition": {
+      "transcription": {
+        "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 2.5,
+            "text": "بِسْمِ اللَّهِ"
+          },
+          {
+            "start": 2.5,
+            "end": 5.0,
+            "text": "الرَّحْمَٰنِ الرَّحِيمِ"
+          }
+        ],
+        "language": "ar",
+        "duration": 5.0,
+        "confidence": 0.85,
+        "timestamp": "2024-01-01T12:00:00"
+      },
+      "comparison_analysis": {
+        "word_accuracy": 1.0,
+        "character_accuracy": 1.0,
+        "correct_words": [
+          "الرَّحِيمِ",
+          "بِسْمِ",
+          "الرَّحْمَٰنِ",
+          "اللَّهِ"
+        ],
+        "missing_words": [],
+        "extra_words": [],
+        "total_reference_words": 4,
+        "total_transcribed_words": 4
+      },
+      "tajweed_result": {
+        "score": 100,
+        "errors": [],
+        "warnings": [],
+        "phonemes": [
+          {
+            "char": "ب",
+            "phoneme": "ba",
+            "position": 0,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 1,
+            "type": "diacritic"
+          },
+          {
+            "char": "س",
+            "phoneme": "sin",
+            "position": 2,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 3,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 4,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 5,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 7,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 8,
+            "type": "consonant"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 9,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 10,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 11,
+            "type": "diacritic"
+          },
+          {
+            "char": "ه",
+            "phoneme": "ha",
+            "position": 12,
+            "type": "glottal"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 13,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 15,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 16,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 17,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 18,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 19,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 20,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 21,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 22,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 23,
+            "type": "diacritic"
+          },
+          {
+            "char": "ن",
+            "phoneme": "nun",
+            "position": 25,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 26,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 28,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 29,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 30,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 31,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 32,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 33,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 34,
+            "type": "diacritic"
+          },
+          {
+            "char": "ي",
+            "phoneme": "ya",
+            "position": 35,
+            "type": "vowel"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 36,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 37,
+            "type": "diacritic"
+          }
+        ],
+        "total_rules_checked": 9
+      },
+      "feedback": {
+        "transcription_feedback": [
+          "✅ Clear speech detected"
+        ],
+        "tajweed_feedback": [
+          "📚 Tajweed Score: 100/100",
+          "✅ Excellent Tajweed!"
+        ],
+        "pronunciation_feedback": [
+          "🎯 Great pronunciation"
+        ],
+        "comparison_feedback": [
+          "📝 Word accuracy: 100.0%"
+        ],
+        "improvement_suggestions": []
+      },
+      "overall_score": 97
+    },
+    "segment_analysis": {
+      "segments": [
+        {
+          "segment_id": 0,
+          "start_time": 0.0,
+          "end_time": 5.0,
+          "text": "بِسْمِ اللَّهِ",
+          "tajweed_score": 95,
+          "errors": []
+        },
+        {
+          "segment_id": 1,
+          "start_time": 5.0,
+          "end_time": 10.0,
+          "text": "الرَّحْمَٰنِ الرَّحِيمِ",
+          "tajweed_score": 88,
+          "errors": [
+            {
+              "rule": "Madd Al-Muttasil",
+              "message": "Check elongation for ا followed by ء"
+            }
+          ]
+        }
+      ],
+      "average_score": 91.5,
+      "total_errors": 1
+    }
+  },
+  "summary": {
+    "total_tests": 5,
+    "tajweed_rules_tested": 7,
+    "successful_tajweed_tests": 7,
+    "overall_success_rate": 1.0
+  },
+  "recommendations": [
+    "🎤 Integrate with actual audio files for full testing",
+    "🔧 Add more comprehensive error handling",
+    "📈 Implement performance metrics tracking",
+    "🌐 Add support for different Arabic dialects"
+  ]
+}

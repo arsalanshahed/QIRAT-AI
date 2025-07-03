@@ -1,0 +1,545 @@
+{
+  "test_results": {
+    "database_init": "<quran_text_integration.QuranTextIntegration object at 0x000001DC4F52FB50>",
+    "surah_management": [
+      {
+        "id": 1,
+        "name_arabic": "الفاتحة",
+        "name_english": "Al-Fatiha",
+        "name_translation": "The Opening",
+        "revelation_type": "Meccan",
+        "verses_count": 7
+      },
+      {
+        "id": 2,
+        "name_arabic": "البقرة",
+        "name_english": "Al-Baqarah",
+        "name_translation": "The Cow",
+        "revelation_type": "Medinan",
+        "verses_count": 286
+      },
+      {
+        "id": 3,
+        "name_arabic": "آل عمران",
+        "name_english": "Aal-Imran",
+        "name_translation": "The Family of Imran",
+        "revelation_type": "Medinan",
+        "verses_count": 200
+      }
+    ],
+    "verse_management": [
+      "QuranVerse(surah_number=1, ayah_number=1, text_arabic='بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ', text_translation='In the name of Allah, the Entirely Merciful, the Especially Merciful.', juz=1, page=1, sajda=False, ruku=0, hizb=0)",
+      "QuranVerse(surah_number=1, ayah_number=2, text_arabic='الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', text_translation='[All] praise is [due] to Allah, Lord of the worlds.', juz=1, page=1, sajda=False, ruku=0, hizb=0)",
+      "QuranVerse(surah_number=2, ayah_number=1, text_arabic='الٓمٓ', text_translation='Alif, Lam, Meem.', juz=1, page=2, sajda=False, ruku=0, hizb=0)"
+    ],
+    "tajweed_analysis": {
+      "verse_info": {
+        "surah_number": 1,
+        "ayah_number": 1,
+        "juz": 1,
+        "page": 1,
+        "sajda": false
+      },
+      "text_analysis": {
+        "arabic_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+        "phonemes": [
+          {
+            "char": "ب",
+            "phoneme": "ba",
+            "position": 0,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 1,
+            "type": "diacritic"
+          },
+          {
+            "char": "س",
+            "phoneme": "sin",
+            "position": 2,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 3,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 4,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 5,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 7,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 8,
+            "type": "consonant"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 9,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 10,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 11,
+            "type": "diacritic"
+          },
+          {
+            "char": "ه",
+            "phoneme": "ha",
+            "position": 12,
+            "type": "glottal"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 13,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 15,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 16,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 17,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 18,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 19,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 20,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 21,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 22,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 23,
+            "type": "diacritic"
+          },
+          {
+            "char": "ن",
+            "phoneme": "nun",
+            "position": 25,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 26,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 28,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 29,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 30,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 31,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 32,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 33,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 34,
+            "type": "diacritic"
+          },
+          {
+            "char": "ي",
+            "phoneme": "ya",
+            "position": 35,
+            "type": "vowel"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 36,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 37,
+            "type": "diacritic"
+          }
+        ],
+        "total_phonemes": 34
+      },
+      "tajweed_analysis": {
+        "score": 100,
+        "errors": [],
+        "warnings": [],
+        "phonemes": [
+          {
+            "char": "ب",
+            "phoneme": "ba",
+            "position": 0,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 1,
+            "type": "diacritic"
+          },
+          {
+            "char": "س",
+            "phoneme": "sin",
+            "position": 2,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 3,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 4,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 5,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 7,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 8,
+            "type": "consonant"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 9,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 10,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 11,
+            "type": "diacritic"
+          },
+          {
+            "char": "ه",
+            "phoneme": "ha",
+            "position": 12,
+            "type": "glottal"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 13,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 15,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 16,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 17,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 18,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 19,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 20,
+            "type": "consonant"
+          },
+          {
+            "char": "ْ",
+            "phoneme": "sukun",
+            "position": 21,
+            "type": "diacritic"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 22,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 23,
+            "type": "diacritic"
+          },
+          {
+            "char": "ن",
+            "phoneme": "nun",
+            "position": 25,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 26,
+            "type": "diacritic"
+          },
+          {
+            "char": "ا",
+            "phoneme": "alif",
+            "position": 28,
+            "type": "vowel"
+          },
+          {
+            "char": "ل",
+            "phoneme": "lam",
+            "position": 29,
+            "type": "consonant"
+          },
+          {
+            "char": "ر",
+            "phoneme": "ra",
+            "position": 30,
+            "type": "consonant"
+          },
+          {
+            "char": "َ",
+            "phoneme": "fatha",
+            "position": 31,
+            "type": "diacritic"
+          },
+          {
+            "char": "ّ",
+            "phoneme": "shadda",
+            "position": 32,
+            "type": "diacritic"
+          },
+          {
+            "char": "ح",
+            "phoneme": "ha",
+            "position": 33,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 34,
+            "type": "diacritic"
+          },
+          {
+            "char": "ي",
+            "phoneme": "ya",
+            "position": 35,
+            "type": "vowel"
+          },
+          {
+            "char": "م",
+            "phoneme": "mim",
+            "position": 36,
+            "type": "consonant"
+          },
+          {
+            "char": "ِ",
+            "phoneme": "kasra",
+            "position": 37,
+            "type": "diacritic"
+          }
+        ],
+        "total_rules_checked": 9
+      },
+      "feedback": [
+        "📖 Surah 1, Ayah 1",
+        "📄 Page 1, Juz 1",
+        "✅ Perfect Tajweed!"
+      ],
+      "highlights": [],
+      "timestamp": "2025-07-03T16:24:09.333904"
+    },
+    "verse_comparison": {
+      "verse1": {
+        "info": {
+          "surah_number": 1,
+          "ayah_number": 1,
+          "juz": 1,
+          "page": 1,
+          "sajda": false
+        },
+        "tajweed_score": 100,
+        "phoneme_count": 34
+      },
+      "verse2": {
+        "info": {
+          "surah_number": 1,
+          "ayah_number": 2,
+          "juz": 1,
+          "page": 1,
+          "sajda": false
+        },
+        "tajweed_score": 100,
+        "phoneme_count": 34
+      },
+      "comparison": {
+        "score_difference": 0,
+        "phoneme_difference": 0,
+        "complexity_ratio": 1.0
+      }
+    },
+    "difficulty_recommendations": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "statistics": {
+      "surah_number": 1,
+      "name_arabic": "الفاتحة",
+      "name_english": "Al-Fatiha",
+      "revelation_type": "Meccan",
+      "verse_count": 2,
+      "average_tajweed_score": 100.0
+    },
+    "search": [
+      "اللَّهِ",
+      "الرَّحْمَٰنِ",
+      "بِسْمِ"
+    ]
+  },
+  "summary": {
+    "total_tests": 8,
+    "successful_tests": 8,
+    "success_rate": 1.0,
+    "features_tested": [
+      "Database initialization",
+      "Surah list management",
+      "Verse storage and retrieval",
+      "Tajweed analysis",
+      "Verse comparison",
+      "Difficulty recommendations",
+      "Statistics generation",
+      "Search functionality"
+    ]
+  },
+  "recommendations": [
+    "🌐 Integrate with actual Quran.com API for live data",
+    "📊 Add more comprehensive statistics and analytics",
+    "🔍 Enhance search functionality with fuzzy matching",
+    "📱 Add mobile-friendly verse selection interface",
+    "🎯 Implement personalized learning recommendations",
+    "📈 Add progress tracking for individual verses"
+  ]
+}

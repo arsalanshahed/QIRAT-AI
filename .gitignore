@@ -119,4 +119,11 @@ users.db
 
 # Other
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Models and audio files
+models/
+vosk-ar.zip
+*.wav
+*.mp3
+*.zip 
